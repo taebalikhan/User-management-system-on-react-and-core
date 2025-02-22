@@ -103,8 +103,8 @@ namespace server.Controllers
         private async Task<User> AuthenticateUser(string email, string password)
         {
             var userDetail = await _context.Users.FirstOrDefaultAsync(u => u.emailID == email);
-            // Checks the database for the user
-            if (email == userDetail.emailID && password == userDetail.password)
+            // Checking user authencity by verifying the passwords 
+            if (password == userDetail.password)
             {
                 return userDetail;
             }

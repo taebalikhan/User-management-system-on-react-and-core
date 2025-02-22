@@ -157,3 +157,4 @@ T:\Study\Projects\React\UserApp\server\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAn
 T:\Study\Projects\React\UserApp\server\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 T:\Study\Projects\React\UserApp\server\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 T:\Study\Projects\React\UserApp\server\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+T:\Study\Projects\React\UserApp\server\obj\Debug\net9.0\server.sourcelink.json
