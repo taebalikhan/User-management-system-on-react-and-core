@@ -5,7 +5,7 @@ using server.Data;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
-//Git push test 2
+
 // Add JWT Authentication
 var key = Encoding.ASCII.GetBytes(builder.Configuration["Jwt:Secret"]);
 
