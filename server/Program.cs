@@ -6,7 +6,7 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add JWT Authentication
+// Add JWT Authentication - 
 var key = Encoding.ASCII.GetBytes(builder.Configuration["Jwt:Secret"]);
 
 builder.Services.AddAuthentication(options =>
